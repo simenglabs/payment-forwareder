@@ -8,7 +8,7 @@ export default function Home() {
         <div className="mb-12 border-b border-zinc-100 dark:border-zinc-800 pb-8">
           <p className="text-xs font-mono text-zinc-400 uppercase tracking-widest mb-2">Saweria Payment</p>
           <h1 className="text-2xl font-semibold text-zinc-900 dark:text-zinc-50">API Reference</h1>
-          <p className="text-sm text-zinc-500 mt-1">Base URL: <span className="font-mono text-zinc-700 dark:text-zinc-300">https://your-domain.com</span></p>
+          <p className="text-sm text-zinc-500 mt-1">Base URL: <span className="font-mono text-zinc-700 dark:text-zinc-300">https://payment.menglabs.id</span></p>
         </div>
 
         {/* Endpoints */}
