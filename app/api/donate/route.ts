@@ -1,9 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 
-const SAWERIA_URL =
-  "https://backend.saweria.co/donations/snap/0b5a44a3-85ed-47f2-bf3d-a8bd423e5eec";
+const SAWERIA_URL = `https://backend.saweria.co/donations/snap/${process.env.SAWERIA_USER_ID}`;
 
-const DEFAULT_EMAIL = "menglabsofficial@gmail.com";
+const DEFAULT_EMAIL = process.env.SAWERIA_DEFAULT_EMAIL ?? "menglabsofficial@gmail.com";
 
 export async function POST(req: NextRequest) {
   const body = await req.json();
